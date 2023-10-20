@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { MonsterData } from './MonsterData';
 import { Link, useLocation } from 'react-router-dom';
-import './MonsterFilter.css';
+import './Monster.css';
 
 const MonsterFilter = () => {
   const [attributeFilter, setAttributeFilter] = useState('不限');

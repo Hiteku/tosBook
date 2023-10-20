@@ -76,3 +76,9 @@ input[type="text"] {
 .monster-results img:hover {
   box-shadow: 0 0 5px white;
 }
+
+@media (max-width: 737px) {
+  .responsive-image {
+    width: 100%;
+  }
+}

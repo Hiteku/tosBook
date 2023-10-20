@@ -3,7 +3,7 @@ import { Link, useParams } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import { MonsterData } from './MonsterData';
-import './MonsterFilter.css';
+import './Monster.css';
 
 const MonsterDetail = () => {
   const { id } = useParams();
@@ -21,8 +21,9 @@ const MonsterDetail = () => {
         <FontAwesomeIcon icon={faArrowLeft} className="fa-icon" />
       </Link> {monster.name}</h2>
       <img
-        src={`https://tinghan33704.com/tos_tool_data/img/monster/${monster.id}.png`}
+        src={`https://web-assets.tosconfig.com/gallery/cards/${monster.id}.jpg`}
         alt={monster.name}
+        className="responsive-image"
       />
       <div className="monster-ar">
         <p>★{monster.star}</p>
