@@ -1,0 +1,78 @@
+.monster-filter {
+  margin: 20px;
+  background-color: #1d1d1d;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.monster-detail {
+  margin: 20px;
+  background-color: #1d1d1d;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.monster-ar {
+  display: inline;
+}
+
+.monster-ar img {
+  width: 30px;
+  margin-right: 3px;
+}
+
+.filter-options {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.filter-options label {
+  color: white;
+  margin-top: 20px;
+}
+
+.fa-icon {
+  font-size: 24px;
+  color: white;
+}
+
+h2 {
+  margin-top: 0px;
+}
+
+input[type="radio"] {
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #444;
+  color: white;
+}
+
+.monster-results {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px 10px 20px;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.monster-results a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.monster-results img {
+  align-self: flex-start;
+  width: 75px;
+  cursor: pointer;
+}
+
+.monster-results img:hover {
+  box-shadow: 0 0 5px white;
+}
