@@ -122,7 +122,7 @@ const MonsterFilter = () => {
           .reverse().map((monster) => (
             <Link
               to={{
-                pathname: `/tosBook/${monster.id}`,
+                pathname: `/${monster.id}`,
                 search: location.search,
               }}
               key={monster.id}

@@ -10,8 +10,7 @@ const App = () => {
       <div>
         <Routes>
           <Route path="/" element={<MonsterFilter data={MonsterData} />} />
-          <Route path="/tosBook" element={<MonsterFilter data={MonsterData} />} />
-          <Route path="/tosBook/:id" element={<MonsterDetail data={MonsterData} />} />
+          <Route path="/:id" element={<MonsterDetail data={MonsterData} />} />
         </Routes>
       </div>
     </Router>
