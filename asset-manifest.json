@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/tosBook/static/css/main.79da0691.css",
-    "main.js": "/tosBook/static/js/main.287e9139.js",
+    "main.css": "/tosBook/static/css/main.022eeb1c.css",
+    "main.js": "/tosBook/static/js/main.e36e7445.js",
     "index.html": "/tosBook/index.html",
-    "main.79da0691.css.map": "/tosBook/static/css/main.79da0691.css.map",
-    "main.287e9139.js.map": "/tosBook/static/js/main.287e9139.js.map"
+    "main.022eeb1c.css.map": "/tosBook/static/css/main.022eeb1c.css.map",
+    "main.e36e7445.js.map": "/tosBook/static/js/main.e36e7445.js.map"
   },
   "entrypoints": [
-    "static/css/main.79da0691.css",
-    "static/js/main.287e9139.js"
+    "static/css/main.022eeb1c.css",
+    "static/js/main.e36e7445.js"
   ]
 }
