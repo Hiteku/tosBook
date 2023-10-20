@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tosBook/static/css/main.79da0691.css",
+    "main.js": "/tosBook/static/js/main.a91d89bd.js",
+    "index.html": "/tosBook/index.html",
+    "main.79da0691.css.map": "/tosBook/static/css/main.79da0691.css.map",
+    "main.a91d89bd.js.map": "/tosBook/static/js/main.a91d89bd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79da0691.css",
+    "static/js/main.a91d89bd.js"
+  ]
+}
